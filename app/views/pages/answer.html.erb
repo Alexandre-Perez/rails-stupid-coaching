@@ -1,8 +1,8 @@
 <div class="p-3 mb-2 bg-body text-dark">
-<h1>Stupid coach</h1>
-<p>
-  <%=@answer%>
-</p>
-
-<%= link_to"ask new question", ask_path%>
+  <h1>Stupid coach</h1>
+  <div class="bg-warning bg-opacity-50 border-start border-5 p-2">
+    <p><strong> <%=@answer%> </strong></p>
+    <p>- Your coach</p>
+  </div>
+  <%= link_to"ask new question", ask_path%>
 </div>
